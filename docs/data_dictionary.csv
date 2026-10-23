@@ -1,0 +1,20 @@
+field,units,type,meaning,source,model_use
+simulation_id,none,string,UrbanTALES simulation case identifier (layout + direction),metadata_ideal.json,traceability only; never a predictor
+layout_id,none,string,Base geometry identifier shared by its d00 and d45 runs,Folder Name before direction suffix,secondary (interpolation) grouping only
+family_id,none,string,"Plan family = arrangement letter + plan-area density code (e.g. A35 from VA35-HR-28 and UA35); 7 sibling layouts, 14 cases per family",layout_id,PRIMARY grouping key for validation; never a predictor
+target_U_canopy_mean_m_s,m/s,float,Trapezoidal mean of supplied profile U from z=0 to mean building height,profile-<case>.csv and metadata Heights,target only
+plan_area_density,ratio,float,Plan-area density of the idealised array,metadata areaDensity,numeric predictor
+plan_area_density_sq,ratio^2,float,Square of plan-area density; lets linear models follow the convex density decay,derived from areaDensity,numeric predictor
+height_mean_m,m,float,Arithmetic mean building height; exactly 16 m in all 224 cases,metadata Heights,not used (constant); kept for the target definition and the ablation
+height_std_m,m,float,Population standard deviation of building heights,metadata Heights,numeric predictor
+height_max_m,m,float,Maximum building height,metadata Heights,numeric predictor
+height_min_m,m,float,Minimum building height,metadata Heights,numeric predictor
+height_range_m,m,float,Maximum minus minimum building height,metadata Heights,numeric predictor
+height_skew,none,float,Population skewness of the building-height list (0 for uniform),metadata Heights,numeric predictor
+frac_taller_than_mean,fraction,float,Share of buildings taller than the mean height,metadata Heights,numeric predictor
+wind_direction_deg,degrees,float,Documented inflow direction (0 or 45),metadata Wind Direction,numeric predictor
+configuration,category,string,"Height pattern from the folder code: idealized-uniform / -CL / -HR / -SM (folder-code convention, see configuration_metadata_label)",layout_id folder code,one-hot predictor
+configuration_metadata_label,category,string,"Raw catalogue Config label. CL and SM are swapped relative to the folder code (folder -CL- is labelled idealized-SM and vice versa)",metadata Config,traceability only; never a predictor
+horizontal_configuration,category,string,Building arrangement (Aligned or Staggered),metadata Horizontal Configuration,one-hot predictor
+density_class,category,string,"Catalogue density regime (sparse / medium / dense), a coarse regime indicator",metadata Plan Area Density,one-hot predictor
+building_count,count,integer,Number of buildings listed; 15 if aligned and 18 if staggered,metadata Heights,not used (duplicates horizontal_configuration); kept for the ablation
