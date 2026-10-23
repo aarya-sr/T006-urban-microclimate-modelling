@@ -1,0 +1,40 @@
+{
+  "source": "UrbanTALES idealized building arrays; profile-*.csv and metadata_ideal.json",
+  "cases": 224,
+  "layouts": 112,
+  "plan_families": 16,
+  "target": "Height-weighted mean of profile U (horizontally averaged wind speed) from z=0 to mean building height for each simulation case",
+  "target_units": "m s-1",
+  "target_summary": {
+    "count": 224.0,
+    "mean": 2.0822327547481803,
+    "std": 1.0023046172583714,
+    "min": 0.9659274491936396,
+    "25%": 1.3902258627976192,
+    "50%": 1.629748004625278,
+    "75%": 2.471943818184731,
+    "max": 5.275317173872631
+  },
+  "hierarchy": "224 cases = 112 layouts x 2 wind directions; 112 layouts = 16 plan families x 7 height patterns (CL/HR/SM x 28/56 + uniform)",
+  "grouping": "PRIMARY: family_id (footprint + plan-area density). SECONDARY: layout_id (interpolation only).",
+  "features": [
+    "plan_area_density",
+    "plan_area_density_sq",
+    "height_std_m",
+    "height_max_m",
+    "height_min_m",
+    "height_range_m",
+    "height_skew",
+    "frac_taller_than_mean",
+    "wind_direction_deg",
+    "configuration",
+    "horizontal_configuration",
+    "density_class"
+  ],
+  "not_used": {
+    "height_mean_m": "constant 16 m",
+    "building_count": "duplicates horizontal_configuration"
+  },
+  "label_note": "configuration follows the folder code; the catalogue Config label has CL and SM swapped and is kept as configuration_metadata_label.",
+  "weather_note": "UrbanTALES metadata provides wind direction but no independent weather time-series inputs for this static profile target."
+}
