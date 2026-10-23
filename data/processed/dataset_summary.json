@@ -35,7 +35,7 @@
     "75%": 2.4423831605,
     "max": 5.224270316
   },
-  "features_for_models": [
+  "base_candidate_features": [
     "plan_area_density",
     "plan_area_density_sq",
     "height_std_m",
@@ -44,11 +44,11 @@
     "height_range_m",
     "height_skew",
     "frac_taller_than_mean",
-    "wind_direction_deg",
     "configuration",
     "horizontal_configuration",
     "density_class"
   ],
+  "final_predictor_whitelist_defined_in": "Machine Learning Pipeline/ML_03_leakage_audit_feature_engineering.ipynb; raw wind_direction_deg is replaced by sine/cosine encodings",
   "excluded_features": {
     "height_mean_m": "constant at 16 m across these idealized cases",
     "building_count": "retained for traceability; omitted from engineered predictor set",

@@ -12,7 +12,7 @@ height_min_m,m,float,Minimum building height,derived from metadata_ideal.json He
 height_range_m,m,float,Maximum minus minimum building height,derived from metadata_ideal.json Heights,numeric predictor
 height_skew,none,float,Population skewness of building heights; zero for uniform heights,derived from metadata_ideal.json Heights,numeric predictor
 frac_taller_than_mean,fraction,float,Share of buildings taller than the mean height,derived from metadata_ideal.json Heights,numeric predictor
-wind_direction_deg,degrees,float,Documented inflow direction,metadata_ideal.json Wind Direction,numeric predictor
+wind_direction_deg,degrees,float,Documented inflow direction retained for traceability; ML_03 uses sine/cosine encodings,metadata_ideal.json Wind Direction,raw angle retained; not a primary predictor after circular encoding
 configuration,category,string,Height-pattern category derived from the simulation folder code,derived from layout_id folder code,one-hot categorical predictor
 configuration_metadata_label,category,string,Original catalogue configuration label preserved for traceability,metadata_ideal.json Config,traceability only; excluded from predictors
 horizontal_configuration,category,string,Building arrangement such as aligned or staggered,metadata_ideal.json Horizontal Configuration,one-hot categorical predictor
