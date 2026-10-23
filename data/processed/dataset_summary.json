@@ -1,0 +1,62 @@
+{
+  "source_files": [
+    "data/raw/metadata_ideal.json",
+    "data/raw/metadata.csv",
+    "data/raw/UrbanTALES-flowdata.csv",
+    "data/raw/selected_files.zip",
+    "data/raw/selected_files (1).zip",
+    "data/raw/selected_files (2).zip"
+  ],
+  "processed_outputs": [
+    "data/processed/layout_level_dataset.csv",
+    "data/processed/data_dictionary.csv",
+    "data/processed/dataset_summary.json",
+    "data/processed/raw_archive_manifest.csv",
+    "data/processed/profile_target_crosscheck.csv",
+    "data/processed/topology_archive_manifest.csv",
+    "data/processed/netcdf_archive_manifest.csv"
+  ],
+  "target_source": "UrbanTALES-flowdata.csv column U",
+  "target_definition": "Scalar U column from UrbanTALES-flowdata.csv for each idealized case; sample vertical profiles are separately integrated and compared as a diagnostic, not substituted for the full-table targets",
+  "cases": 224,
+  "layouts": 112,
+  "plan_families": 16,
+  "wind_directions_deg": [
+    0.0,
+    45.0
+  ],
+  "target_summary": {
+    "count": 224.0,
+    "mean": 2.049749587263393,
+    "std": 0.9969388111117238,
+    "min": 0.898580995,
+    "25%": 1.3690530625,
+    "50%": 1.6030427294999998,
+    "75%": 2.4423831605,
+    "max": 5.224270316
+  },
+  "features_for_models": [
+    "plan_area_density",
+    "plan_area_density_sq",
+    "height_std_m",
+    "height_max_m",
+    "height_min_m",
+    "height_range_m",
+    "height_skew",
+    "frac_taller_than_mean",
+    "wind_direction_deg",
+    "configuration",
+    "horizontal_configuration",
+    "density_class"
+  ],
+  "excluded_features": {
+    "height_mean_m": "constant at 16 m across these idealized cases",
+    "building_count": "retained for traceability; omitted from engineered predictor set",
+    "simulation_id": "identifier, not a predictor",
+    "layout_id": "identifier used for grouping, not a predictor",
+    "family_id": "grouping variable used for validation, not a predictor",
+    "configuration_metadata_label": "kept for traceability; folder-code configuration is used because CL/SM labels are inconsistent in the catalogue"
+  },
+  "validation": "224 cases, 112 layouts, 16 families; no missing values; one record per simulation_id. The three ZIP archives are read and audited, but contain sample coverage only.",
+  "dictionary_generated_from_dataset_columns": true
+}

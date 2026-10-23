@@ -1,0 +1,20 @@
+field,units,type,meaning,source,model_use
+simulation_id,none,string,UrbanTALES simulation case identifier (layout + direction),metadata_ideal.json Folder Name,traceability only; never a predictor
+layout_id,none,string,Base geometry identifier shared by its wind-direction runs,Folder Name before direction suffix,grouping/traceability; not a predictor
+family_id,none,string,Plan family derived from arrangement letter and plan-area-density code,derived from layout_id,primary grouping key for validation; never a predictor
+target_U_canopy_mean_m_s,m/s,float,Scalar wind-speed target supplied in the raw flow-data table,UrbanTALES-flowdata.csv column U,target only; not a predictor
+plan_area_density,ratio,float,Plan-area density of the idealized array,metadata_ideal.json areaDensity,numeric predictor
+plan_area_density_sq,ratio^2,float,Square of plan-area density to represent nonlinear density effects,derived from areaDensity,numeric predictor
+height_mean_m,m,float,Arithmetic mean building height,metadata_ideal.json Heights,retained for traceability; constant in this dataset
+height_std_m,m,float,Population standard deviation of building heights,derived from metadata_ideal.json Heights,numeric predictor
+height_max_m,m,float,Maximum building height,derived from metadata_ideal.json Heights,numeric predictor
+height_min_m,m,float,Minimum building height,derived from metadata_ideal.json Heights,numeric predictor
+height_range_m,m,float,Maximum minus minimum building height,derived from metadata_ideal.json Heights,numeric predictor
+height_skew,none,float,Population skewness of building heights; zero for uniform heights,derived from metadata_ideal.json Heights,numeric predictor
+frac_taller_than_mean,fraction,float,Share of buildings taller than the mean height,derived from metadata_ideal.json Heights,numeric predictor
+wind_direction_deg,degrees,float,Documented inflow direction,metadata_ideal.json Wind Direction,numeric predictor
+configuration,category,string,Height-pattern category derived from the simulation folder code,derived from layout_id folder code,one-hot categorical predictor
+configuration_metadata_label,category,string,Original catalogue configuration label preserved for traceability,metadata_ideal.json Config,traceability only; excluded from predictors
+horizontal_configuration,category,string,Building arrangement such as aligned or staggered,metadata_ideal.json Horizontal Configuration,one-hot categorical predictor
+density_class,category,string,Categorical density regime from the supplied metadata,metadata_ideal.json Plan Area Density,one-hot categorical predictor
+building_count,count,integer,Number of buildings represented in the height list,count of metadata_ideal.json Heights,retained for traceability/baseline ablation; not in engineered predictors
