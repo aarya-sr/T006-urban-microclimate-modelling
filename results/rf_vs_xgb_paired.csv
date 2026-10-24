@@ -1,0 +1,2 @@
+comparison,mean_difference_m_s,ci95_low,ci95_high,interpretation
+Random Forest MAE minus XGBoost MAE,-0.03898052822028646,-0.08266960032675712,0.011325168400799364,Positive values favour XGBoost; interval spanning zero means the difference is uncertain.
