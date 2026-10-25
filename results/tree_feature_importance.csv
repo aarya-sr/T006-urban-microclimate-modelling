@@ -1,6 +1,6 @@
 model,feature,importance
-Random Forest,configuration,0.0004959427735811016
-Random Forest,density_class,0.037209296330043336
+Random Forest,configuration,0.0019837710943244064
+Random Forest,density_class,0.11162788899013001
 Random Forest,frac_taller_than_mean,0.001871895055511992
 Random Forest,height_coefficient_variation,0.0029326181300356738
 Random Forest,height_max_m,0.00204544976516838
@@ -8,13 +8,13 @@ Random Forest,height_min_m,0.0043994570485434165
 Random Forest,height_range_m,0.004132852214611918
 Random Forest,height_skew,0.00021217440416719733
 Random Forest,height_std_m,0.0026939106407504665
-Random Forest,horizontal_configuration,0.020457929679954998
+Random Forest,horizontal_configuration,0.040915859359909997
 Random Forest,plan_area_density,0.3446556637518122
 Random Forest,plan_area_density_sq,0.38870939611114486
 Random Forest,wind_direction_cos,0.04690485296878232
 Random Forest,wind_direction_sin,0.04691421046510713
-XGBoost,configuration,0.0002996663562953472
-XGBoost,density_class,0.000345730052019159
+XGBoost,configuration,0.0011986654251813888
+XGBoost,density_class,0.001037190156057477
 XGBoost,frac_taller_than_mean,0.0020949268713593484
 XGBoost,height_coefficient_variation,0.0019122124183923006
 XGBoost,height_max_m,0.008085668738931417
@@ -22,7 +22,7 @@ XGBoost,height_min_m,0.014732176065444946
 XGBoost,height_range_m,0.01578414309769869
 XGBoost,height_skew,0.0017954715061932803
 XGBoost,height_std_m,0.011884255800396204
-XGBoost,horizontal_configuration,0.041303077898919585
+XGBoost,horizontal_configuration,0.08260615579783917
 XGBoost,plan_area_density,0.41296687722206116
 XGBoost,plan_area_density_sq,0.3207746148109436
 XGBoost,wind_direction_cos,0.0671785056591034
