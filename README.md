@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Jupyter-Notebook--first-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
 </p>
 
-## Project Overview
+## 📌 Project Overview
 
 Computational fluid dynamics (CFD) can resolve airflow around buildings, but rerunning it for every candidate layout is expensive. This project asks whether a **fast, data-driven surrogate** can predict the average wind speed inside an urban canopy from simple geometric summaries of the layout and the wind direction.
 
@@ -21,7 +21,7 @@ Computational fluid dynamics (CFD) can resolve airflow around buildings, but rer
 
 ---
 
-## Project Objectives
+## 🎯 Project Objectives
 
 - Audit the raw UrbanTALES files and build a traceable, case-level modelling table.
 - Explore the target and geometry, and define the Phase 1 prediction target.
@@ -34,7 +34,7 @@ Computational fluid dynamics (CFD) can resolve airflow around buildings, but rer
 
 ---
 
-## Problem Statement
+## 🧠 Problem Statement
 
 Given layout-level geometric summaries and the wind direction, predict the canopy-averaged wind speed for a simulated case.
 
@@ -42,7 +42,7 @@ This is a **regression problem**. The target, `target_U_canopy_mean_m_s`, comes 
 
 ---
 
-## Dataset
+## 📂 Dataset
 
 **Source:** UrbanTALES idealised building arrays (supplied raw files in `data/raw/`).
 
@@ -68,11 +68,11 @@ This is a **regression problem**. The target, `target_U_canopy_mean_m_s`, comes 
 
 - `data/raw/` holds the supplied raw data and three sample ZIP archives.
 - `data/processed/` holds the ML_01 outputs: the processed dataset, data dictionary, dataset summary and raw-archive audit tables. Re-running ML_01 regenerates them from the raw inputs.
-- Each ZIP archive contains **32 sample members, not all 224 cases**. The profile archive is used for a diagnostic comparison against the flow-table target; the topology and NetCDF archives are inventoried only. They are not treated as complete spatial-field data.
+- Each ZIP archive contains **32 sample members, not all 224 cases** (profiles: 32 cases; topology: 32 cases; NetCDF: 16 cases). Profile-integrated mean wind speed matches the flow-table target with a mean absolute difference of 0.047 m/s, which supports the target definition. The topology and NetCDF archives are inventoried only. They are not treated as complete spatial-field data.
 
 ---
 
-## Project Workflow
+## ⚙️ Project Workflow
 
 ```mermaid
 flowchart TD
@@ -120,13 +120,13 @@ Predictors describe the layout and wind conditions only. The following are **exc
 |---|---|
 | Plan geometry | Plan-area density and its square |
 | Building heights | Standard deviation, min, max, range, skew, coefficient of variation, fraction taller than the mean |
-| Wind and layout type | Wind-direction sine and cosine, horizontal configuration (aligned/staggered), density class |
+| Wind and layout type | Wind-direction sine and cosine, horizontal configuration (aligned/staggered), height pattern `configuration` (uniform/CL/HR/SM), density class |
 
-The exact predictor whitelist is defined in ML_03. With only 0° and 45° in the data, the sine/cosine pair behaves as a two-state flag, so no claim is made about other angles.
+In total there are 14 predictors (11 numeric, 3 categorical), defined by the whitelist in ML_03. A 9-predictor baseline set (which adds `building_count`) is used only for the feature ablation. With only 0° and 45° in the data, the sine/cosine pair behaves as a two-state flag, so no claim is made about other angles.
 
 ---
 
-## Evaluation Strategy
+## 📊 Evaluation Strategy
 
 Closely related layouts can make random row splits look more optimistic than real generalisation. Three protocols are compared:
 
@@ -155,7 +155,7 @@ MAE (m/s, primary), RMSE (m/s), normalised RMSE (RMSE ÷ target range) and R² a
 
 ---
 
-## Results
+## 🏁 Results
 
 Pooled out-of-fold results from **ML_07** (224 cases, 16 families, engineered features).
 
@@ -163,41 +163,46 @@ Pooled out-of-fold results from **ML_07** (224 cases, 16 families, engineered fe
 
 | Model | MAE (m/s) | RMSE (m/s) | Norm. RMSE | R² |
 |---|---:|---:|---:|---:|
-| **Random Forest** | **0.259** | **0.384** | **0.089** | **0.851** |
-| XGBoost | 0.298 | 0.401 | 0.093 | 0.838 |
+| **XGBoost** | **0.232** | **0.309** | **0.071** | **0.903** |
+| Random Forest | 0.256 | 0.380 | 0.088 | 0.854 |
 | Ridge regression | 0.400 | 0.507 | 0.117 | 0.740 |
 | Mean baseline | 0.798 | 1.011 | 0.234 | −0.033 |
 
-Random Forest reduces MAE by 0.538 m/s (67.5%) relative to the mean baseline, about 13% of the mean target value.
+XGBoost reduces MAE by 0.565 m/s (70.9%) relative to the mean baseline, about 11% of the mean target value.
 
 ### MAE across validation protocols
 
 | Model | family_5fold | family_loo | layout_5fold |
 |---|---:|---:|---:|
-| Random Forest | 0.259 | 0.252 | 0.068 |
-| XGBoost | 0.298 | 0.307 | 0.217 |
+| XGBoost | 0.232 | 0.238 | 0.150 |
+| Random Forest | 0.256 | 0.250 | 0.065 |
 | Ridge regression | 0.400 | 0.403 | 0.332 |
 | Mean baseline | 0.798 | 0.836 | 0.790 |
 
-Holding out sibling layouts instead of whole families makes Random Forest look about four times better. Treat `layout_5fold` as an interpolation check, not as the generalisation claim.
+Holding out sibling layouts instead of whole families makes Random Forest look about four times better (0.065 vs 0.256 m/s). Treat `layout_5fold` as an interpolation check, not as the generalisation claim; `family_loo` agrees with `family_5fold`.
 
 ### Robustness
 
 | Check | Result |
 |---|---|
-| 95% family-bootstrap CI for MAE | Random Forest 0.18–0.34; XGBoost 0.24–0.36; Ridge 0.31–0.50; Mean baseline 0.57–1.08 |
-| Paired Random Forest vs XGBoost | MAE difference −0.039 m/s, 95% CI −0.083 to +0.011. The interval spans zero, so there is no reliable winner between the two tree models |
-| Feature ablation (engineered vs baseline features) | Ridge improves by 0.039 m/s; Random Forest worsens by 0.018; XGBoost worsens by 0.002 |
+| 95% family-bootstrap CI for MAE | XGBoost 0.18–0.29; Random Forest 0.18–0.34; Ridge 0.31–0.50; Mean baseline 0.57–1.08 |
+| Paired Random Forest vs XGBoost | MAE difference +0.024 m/s (RF minus XGBoost), 95% CI −0.016 to +0.069. The interval spans zero, so there is no reliable winner between the two tree models |
+| Feature ablation (engineered vs baseline features) | Ridge improves by 0.039 m/s; Random Forest worsens by 0.017; XGBoost is unchanged (0.000) |
+| Ridge α sensitivity (pooled MAE) | 0.01: 0.402; 0.1: 0.401; 1: 0.400; 10: 0.427; 100: 0.473 |
 
 ### Feature importance (ML_06, descriptive)
 
-Plan-area density and its square account for about 73% of Random Forest importance (0.345 + 0.389). Wind direction (sin + cos) adds about 0.09, density class 0.04 and horizontal configuration 0.02. Importance is descriptive, not causal.
+Plan-area density and its square account for about 73% of importance in both tree models (Random Forest 0.345 + 0.389; XGBoost 0.413 + 0.321). Random Forest also assigns 0.11 to density class and about 0.05 each to wind-direction sine and cosine; XGBoost assigns 0.08 to horizontal configuration and 0.06–0.07 to the wind-direction terms. Importance is descriptive, not causal. Categorical importances are summed over their one-hot columns.
 
-> **Reproducing the numbers:** `results/` is generated by the notebooks and is git-ignored, so no result files are committed. ML_06 also reports its own pooled tree-model run; **ML_07 is the authoritative comparison** because it generates fresh predictions for all models under all protocols.
+### Error diagnostics
+
+Errors are largest for the fast, sparse cases (observed speeds above about 4 m/s) and are larger at 0° than at 45°, where the target varies less (SD 1.19 vs 0.72 m/s).
+
+> **Reproducing the numbers:** `results/` is generated by the notebooks and is git-ignored, so no result files are committed. ML_06 and ML_07 use identical model settings (Random Forest 300 trees; XGBoost 200 trees, depth 2, learning rate 0.03) and the same folds, so their family-held-out metrics agree. ML_07 is the reference comparison.
 
 ---
 
-## Technology Stack
+## 🛠️ Technology Stack
 
 | Technology | Purpose |
 |---|---|
@@ -212,7 +217,7 @@ Exact dependencies are pinned in `requirements.txt`.
 
 ---
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```text
 T006-urban-microclimate-modelling/
@@ -230,7 +235,7 @@ T006-urban-microclimate-modelling/
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ```bash
 git clone https://github.com/aarya-sr/T006-urban-microclimate-modelling.git
@@ -249,7 +254,7 @@ jupyter lab
 
 ---
 
-## Team Contributions
+## 👥 Team Contributions
 
 | Notebook | Team member | Responsibility |
 |---|---|---|
@@ -259,11 +264,11 @@ jupyter lab
 | ML_04 | Jashvita Lakshmi Omkaram | Grouped split and preprocessing |
 | ML_05 | Palak | Ridge regression |
 | ML_06 | Samarth Sangtani | Random Forest and XGBoost |
-| ML_07 | Samarth Sangtani | Evaluation, comparison and diagnostics |
+| ML_07 | Suhaani Garg | Evaluation, comparison and diagnostics |
 
 ---
 
-## Limitations and Considerations
+## ⚠️ Limitations and Considerations
 
 - **Scalar output only:** no local wakes, street-canyon detail or spatial velocity maps.
 - **Small sample:** 224 cases, 112 layouts and only 16 plan families.
@@ -277,7 +282,7 @@ jupyter lab
 
 ---
 
-## Future Improvements (Phase 2 outlook)
+## 🔮 Future Improvements (Phase 2 outlook)
 
 - Rasterise layouts and wind conditions as image-like inputs.
 - Train a compact U-Net or conditional CNN to predict the spatial velocity field.
@@ -289,13 +294,13 @@ jupyter lab
 
 ---
 
-## Data Attribution and Licence
+## 📜 Data Attribution and Licence
 
 The supplied extraction notes state that UrbanTALES data is provided under **CC BY-NC 4.0**. Retain attribution and verify the original dataset terms before redistribution or commercial use. The dataset licence does not automatically determine the licence for the project code.
 
 ---
 
-## Project Status
+## 📌 Project Status
 
 **Project:** T006 — Urban Microclimate Modelling
 **Phase 1:** complete (tabular baseline with grouped validation)
