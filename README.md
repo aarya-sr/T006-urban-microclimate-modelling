@@ -260,8 +260,8 @@ jupyter lab
 |---|---|---|
 | ML_01 | Suhaani Garg | Dataset understanding and data dictionary |
 | ML_02 | Aarya Srivastava | EDA and target definition |
-| ML_03 | Jashvita Lakshmi Omkaram | Leakage audit and feature engineering |
-| ML_04 | Jashvita Lakshmi Omkaram | Grouped split and preprocessing |
+| ML_03 | Jashvitha Lakshmi Omkaram | Leakage audit and feature engineering |
+| ML_04 | Jashvitha Lakshmi Omkaram | Grouped split and preprocessing |
 | ML_05 | Palak | Ridge regression |
 | ML_06 | Samarth Sangtani | Random Forest and XGBoost |
 | ML_07 | Suhaani Garg | Evaluation, comparison and diagnostics |
