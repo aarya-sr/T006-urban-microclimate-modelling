@@ -1,0 +1,10 @@
+field,units,meaning,model_role
+height_map,m,Building-height raster from the _topo file; zero denotes open space,input channel; normalized with training maximum
+wind_direction_sin,unitless,Sine of wind direction relative to the x-axis,constant input channel
+wind_direction_cos,unitless,Cosine of wind direction relative to the x-axis,constant input channel
+u_tau_m_s,m/s,Prescribed friction velocity from metadata.csv,standardized condition input channel
+domain_mask,binary,One inside the original CFD grid and zero in padding,input channel to distinguish padding from open air
+uped,not stated in NetCDF attributes,First pedestrian-level horizontal velocity component as stored in the NetCDF,target channel 1; raw stored scale retained
+vped,not stated in NetCDF attributes,Second pedestrian-level horizontal velocity component as stored in the NetCDF,target channel 2; raw stored scale retained
+valid_mask,binary,Topography equals zero and both target components are finite,masked loss and masked evaluation only
+layout_id / family_id,identifier,Geometry grouping identifiers,split integrity only; never model input

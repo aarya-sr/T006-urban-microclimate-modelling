@@ -1,0 +1,47 @@
+{
+  "n_cases": 224,
+  "n_layouts": 112,
+  "n_families": 16,
+  "archive_member_coverage": {
+    "pedestrian_netcdf": 224,
+    "topography": 224,
+    "time_series_netcdf": 224,
+    "profile_csv": 224
+  },
+  "wind_directions_deg": [
+    0.0,
+    45.0
+  ],
+  "grid_shapes_xy": [
+    "120x200",
+    "120x240",
+    "132x220",
+    "132x264",
+    "144x240",
+    "144x288",
+    "162x270",
+    "162x324",
+    "192x320",
+    "192x384",
+    "240x400",
+    "240x480",
+    "288x480",
+    "288x576",
+    "384x640",
+    "384x768"
+  ],
+  "min_valid_air_cells": 5184,
+  "median_valid_air_cells": 31854.0,
+  "max_valid_air_cells": 257472,
+  "maximum_building_height_m": 37.0,
+  "uped_units_attributes_observed": [
+    "None"
+  ],
+  "vped_units_attributes_observed": [
+    "None"
+  ],
+  "field_units_warning": "The inspected NetCDF variables do not carry units attributes. Raw stored values are retained; do not label field errors as m/s unless the original data documentation confirms the units.",
+  "mask_definition": "topography == 0 AND finite(uped) AND finite(vped)",
+  "orientation": "source arrays (x,y) transposed to model arrays (y,x)",
+  "resampling": "none; original grid spacing retained"
+}

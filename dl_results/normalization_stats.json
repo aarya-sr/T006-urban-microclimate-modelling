@@ -1,0 +1,11 @@
+{
+  "u_mean": 0.3201634069743621,
+  "u_std": 0.3266305979788613,
+  "v_mean": 0.08975080081250383,
+  "v_std": 0.22545755748615376,
+  "u_tau_mean": 0.20592541145161775,
+  "u_tau_std": 0.0026684158919167357,
+  "height_scale_m": 37.0,
+  "training_valid_pixel_count": 7679028,
+  "normalization_fit_scope": "training split only"
+}
