@@ -1,0 +1,21 @@
+{
+  "input_channels": [
+    "building_height_normalized",
+    "wind_direction_sin",
+    "wind_direction_cos",
+    "friction_velocity_standardized",
+    "domain_mask"
+  ],
+  "output_channels": [
+    "uped",
+    "vped"
+  ],
+  "base_channels": 8,
+  "downsampling_stages": 4,
+  "normalization": "GroupNorm",
+  "activation": "GELU",
+  "regularization": "Dropout2d in bottleneck; AdamW weight decay; early stopping",
+  "loss": "masked mean squared error over valid air cells",
+  "parameter_count_unet": 486706,
+  "parameter_count_compact_cnn": 32570
+}

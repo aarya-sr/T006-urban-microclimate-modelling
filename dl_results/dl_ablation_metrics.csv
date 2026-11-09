@@ -1,0 +1,3 @@
+aggregation,field_component_MAE,field_component_RMSE,field_component_NRMSE,pedestrian_speed_MAE_native_units,pedestrian_speed_RMSE_native_units,pedestrian_speed_NRMSE,valid_air_cells,model,input_channels
+all valid cells pooled,0.281463623046875,0.3715735375881195,0.1165477770076023,0.3077942728996277,0.37406882643699646,0.21081752003222679,5157120,ablation_geometry_only,"0,4"
+all valid cells pooled,0.2622925639152527,0.3576408624649048,0.1121776533332416,0.29582926630973816,0.36199113726615906,0.20401078207715992,5157120,ablation_without_u_tau,"0,1,2,4"

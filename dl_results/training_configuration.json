@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "device": "mps",
+  "batch_size": 1,
+  "primary_model": "U-Net",
+  "unet_config": {
+    "in_channels": 5,
+    "out_channels": 2,
+    "base_channels": 8,
+    "dropout": 0.1
+  },
+  "unet_max_epochs": 25,
+  "cnn_baseline_trained": true,
+  "cnn_baseline_max_epochs": 15,
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "gradient_clip_norm": 1.0,
+  "early_stopping_patience_unet": 7,
+  "early_stopping_patience_cnn": 5,
+  "loss": "masked MSE over valid air cells",
+  "split_file": "dl_results/dl_split_manifest.csv"
+}

@@ -1,0 +1,8 @@
+metric,mean_across_cases
+field_component_MAE,0.18766155501916296
+field_component_RMSE,0.2400474003737881
+field_component_NRMSE,0.14447808322061434
+pedestrian_speed_MAE_native_units,0.20382968620175407
+pedestrian_speed_RMSE_native_units,0.24027319039617265
+pedestrian_speed_NRMSE,0.21534362360320175
+valid_air_cells,5157120.0
