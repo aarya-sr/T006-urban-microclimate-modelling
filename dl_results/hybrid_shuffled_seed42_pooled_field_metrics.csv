@@ -1,0 +1,2 @@
+aggregation,field_component_MAE,field_component_RMSE,field_component_NRMSE,pedestrian_speed_MAE_native_units,pedestrian_speed_RMSE_native_units,pedestrian_speed_NRMSE,valid_air_cells
+all valid cells pooled,0.23858891427516937,0.3426312506198883,0.10746973762525396,0.24096399545669556,0.3194642663002014,0.18004350964451918,5157120

@@ -1,225 +1,225 @@
-simulation_id,split,family_id,actual_canopy_mean_m_s,predicted_canopy_mean_m_s,prediction_method
-UA0625_d00,test,A0625,5.224270316,4.291324615478516,XGBoost fitted on Phase 2 training families only
-UA0625_d45,test,A0625,3.368764502,3.534513473510742,XGBoost fitted on Phase 2 training families only
-UA1111_d00,test,A1111,3.868835671,4.291324615478516,XGBoost fitted on Phase 2 training families only
-UA1111_d45,test,A1111,2.341092068,3.534513473510742,XGBoost fitted on Phase 2 training families only
-UA16_d00,train,A16,3.226372526,2.4234166145324707,5-fold family-grouped out-of-fold
-UA16_d45,train,A16,1.903163237,1.8968496322631836,5-fold family-grouped out-of-fold
-UA25_d00,train,A25,2.749950081,2.885138750076294,5-fold family-grouped out-of-fold
-UA25_d45,train,A25,1.602703512,2.175497055053711,5-fold family-grouped out-of-fold
-UA35_d00,train,A35,2.279838977,2.335003137588501,5-fold family-grouped out-of-fold
-UA35_d45,train,A35,1.529994243,1.9384526014328003,5-fold family-grouped out-of-fold
-UA4444_d00,test,A4444,2.293793351,1.8060356378555298,XGBoost fitted on Phase 2 training families only
-UA4444_d45,test,A4444,1.486857398,1.5602034330368042,XGBoost fitted on Phase 2 training families only
-UA53_d00,train,A53,2.705875708,1.7869099378585815,5-fold family-grouped out-of-fold
-UA53_d45,train,A53,1.432142529,1.5528429746627808,5-fold family-grouped out-of-fold
-UA64_d00,train,A64,2.747657596,1.8281385898590088,5-fold family-grouped out-of-fold
-UA64_d45,train,A64,1.314752598,1.5654305219650269,5-fold family-grouped out-of-fold
-US0625_d00,train,S0625,4.287037468,2.2012252807617188,5-fold family-grouped out-of-fold
-US0625_d45,train,S0625,3.648802756,1.7313677072525024,5-fold family-grouped out-of-fold
-US1111_d00,validation,S1111,2.8892686,4.152029514312744,XGBoost fitted on Phase 2 training families only
-US1111_d45,validation,S1111,2.466682406,3.5303282737731934,XGBoost fitted on Phase 2 training families only
-US16_d00,train,S16,2.112453655,2.696033239364624,5-fold family-grouped out-of-fold
-US16_d45,train,S16,1.940726106,2.040355682373047,5-fold family-grouped out-of-fold
-US25_d00,validation,S25,1.391963677,1.929978847503662,XGBoost fitted on Phase 2 training families only
-US25_d45,validation,S25,1.409623384,1.6962013244628906,XGBoost fitted on Phase 2 training families only
-US35_d00,train,S35,1.229375258,2.0064544677734375,5-fold family-grouped out-of-fold
-US35_d45,train,S35,1.151477918,1.7361313104629517,5-fold family-grouped out-of-fold
-US4444_d00,train,S4444,1.052834501,1.5462452173233032,5-fold family-grouped out-of-fold
-US4444_d45,train,S4444,1.154797158,1.2998894453048706,5-fold family-grouped out-of-fold
-US53_d00,train,S53,0.947374337,1.4223250150680542,5-fold family-grouped out-of-fold
-US53_d45,train,S53,1.11616045,1.2849640846252441,5-fold family-grouped out-of-fold
-US64_d00,validation,S64,0.898580995,1.3572641611099243,XGBoost fitted on Phase 2 training families only
-US64_d45,validation,S64,1.175921093,1.2733242511749268,XGBoost fitted on Phase 2 training families only
-VA0625-CL-28_d00,test,A0625,5.15362497,4.218519687652588,XGBoost fitted on Phase 2 training families only
-VA0625-CL-28_d45,test,A0625,3.386545899,3.5557193756103516,XGBoost fitted on Phase 2 training families only
-VA0625-CL-56_d00,test,A0625,4.932246149,4.142037391662598,XGBoost fitted on Phase 2 training families only
-VA0625-CL-56_d45,test,A0625,3.401152709,3.5362279415130615,XGBoost fitted on Phase 2 training families only
-VA0625-HR-28_d00,test,A0625,5.143625027,4.242928504943848,XGBoost fitted on Phase 2 training families only
-VA0625-HR-28_d45,test,A0625,3.379752058,3.543113946914673,XGBoost fitted on Phase 2 training families only
-VA0625-HR-56_d00,test,A0625,4.965073382,4.162281513214111,XGBoost fitted on Phase 2 training families only
-VA0625-HR-56_d45,test,A0625,3.371056259,3.5533924102783203,XGBoost fitted on Phase 2 training families only
-VA0625-SM-28_d00,test,A0625,5.151403969,4.218519687652588,XGBoost fitted on Phase 2 training families only
-VA0625-SM-28_d45,test,A0625,3.40167227,3.5557193756103516,XGBoost fitted on Phase 2 training families only
-VA0625-SM-56_d00,test,A0625,4.925131903,4.142037391662598,XGBoost fitted on Phase 2 training families only
-VA0625-SM-56_d45,test,A0625,3.41713155,3.5362279415130615,XGBoost fitted on Phase 2 training families only
-VA1111-CL-28_d00,test,A1111,3.741932779,4.218519687652588,XGBoost fitted on Phase 2 training families only
-VA1111-CL-28_d45,test,A1111,2.358178075,3.5557193756103516,XGBoost fitted on Phase 2 training families only
-VA1111-CL-56_d00,test,A1111,3.598915617,4.142037391662598,XGBoost fitted on Phase 2 training families only
-VA1111-CL-56_d45,test,A1111,2.360139774,3.5362279415130615,XGBoost fitted on Phase 2 training families only
-VA1111-HR-28_d00,test,A1111,3.738946057,4.242928504943848,XGBoost fitted on Phase 2 training families only
-VA1111-HR-28_d45,test,A1111,2.338881411,3.543113946914673,XGBoost fitted on Phase 2 training families only
-VA1111-HR-56_d00,test,A1111,3.54135235,4.162281513214111,XGBoost fitted on Phase 2 training families only
-VA1111-HR-56_d45,test,A1111,2.314164418,3.5533924102783203,XGBoost fitted on Phase 2 training families only
-VA1111-SM-28_d00,test,A1111,3.670786508,4.218519687652588,XGBoost fitted on Phase 2 training families only
-VA1111-SM-28_d45,test,A1111,2.347229047,3.5557193756103516,XGBoost fitted on Phase 2 training families only
-VA1111-SM-56_d00,test,A1111,3.523383555,4.142037391662598,XGBoost fitted on Phase 2 training families only
-VA1111-SM-56_d45,test,A1111,2.3543961,3.5362279415130615,XGBoost fitted on Phase 2 training families only
-VA16-CL-28_d00,train,A16,3.014350069,2.2509207725524902,5-fold family-grouped out-of-fold
-VA16-CL-28_d45,train,A16,1.937770218,1.9042463302612305,5-fold family-grouped out-of-fold
-VA16-CL-56_d00,train,A16,2.796185919,2.1584103107452393,5-fold family-grouped out-of-fold
-VA16-CL-56_d45,train,A16,1.92229141,1.847908854484558,5-fold family-grouped out-of-fold
-VA16-HR-28_d00,train,A16,2.996322171,2.2871737480163574,5-fold family-grouped out-of-fold
-VA16-HR-28_d45,train,A16,1.91422941,1.8758057355880737,5-fold family-grouped out-of-fold
-VA16-HR-56_d00,train,A16,2.802500162,2.1488187313079834,5-fold family-grouped out-of-fold
-VA16-HR-56_d45,train,A16,1.86447479,1.8314303159713745,5-fold family-grouped out-of-fold
-VA16-SM-28_d00,train,A16,2.987425977,2.2322163581848145,5-fold family-grouped out-of-fold
-VA16-SM-28_d45,train,A16,1.910749556,1.8839045763015747,5-fold family-grouped out-of-fold
-VA16-SM-56_d00,train,A16,2.749085335,2.138376474380493,5-fold family-grouped out-of-fold
-VA16-SM-56_d45,train,A16,1.921929745,1.8278751373291016,5-fold family-grouped out-of-fold
-VA25-CL-28_d00,train,A25,2.360941631,2.7807564735412598,5-fold family-grouped out-of-fold
-VA25-CL-28_d45,train,A25,1.653178844,2.1645748615264893,5-fold family-grouped out-of-fold
-VA25-CL-56_d00,train,A25,2.114758234,2.692641496658325,5-fold family-grouped out-of-fold
-VA25-CL-56_d45,train,A25,1.644992019,2.1166276931762695,5-fold family-grouped out-of-fold
-VA25-HR-28_d00,train,A25,2.335433462,2.8125715255737305,5-fold family-grouped out-of-fold
-VA25-HR-28_d45,train,A25,1.619688836,2.1737406253814697,5-fold family-grouped out-of-fold
-VA25-HR-56_d00,train,A25,2.197141997,2.6802992820739746,5-fold family-grouped out-of-fold
-VA25-HR-56_d45,train,A25,1.542841819,2.105289936065674,5-fold family-grouped out-of-fold
-VA25-SM-28_d00,train,A25,2.285333379,2.7814478874206543,5-fold family-grouped out-of-fold
-VA25-SM-28_d45,train,A25,1.616528371,2.165266275405884,5-fold family-grouped out-of-fold
-VA25-SM-56_d00,train,A25,2.035419513,2.6907246112823486,5-fold family-grouped out-of-fold
-VA25-SM-56_d45,train,A25,1.611910599,2.114710807800293,5-fold family-grouped out-of-fold
-VA35-CL-28_d00,train,A35,1.964470279,2.1911680698394775,5-fold family-grouped out-of-fold
-VA35-CL-28_d45,train,A35,1.603381947,1.9250380992889404,5-fold family-grouped out-of-fold
-VA35-CL-56_d00,train,A35,1.72205725,1.9990746974945068,5-fold family-grouped out-of-fold
-VA35-CL-56_d45,train,A35,1.528192414,1.7765434980392456,5-fold family-grouped out-of-fold
-VA35-HR-28_d00,train,A35,2.076695947,2.1725194454193115,5-fold family-grouped out-of-fold
-VA35-HR-28_d45,train,A35,1.529242809,1.882448673248291,5-fold family-grouped out-of-fold
-VA35-HR-56_d00,train,A35,1.837766359,1.9862451553344727,5-fold family-grouped out-of-fold
-VA35-HR-56_d45,train,A35,1.404318352,1.7637139558792114,5-fold family-grouped out-of-fold
-VA35-SM-28_d00,train,A35,1.983347297,2.1924078464508057,5-fold family-grouped out-of-fold
-VA35-SM-28_d45,train,A35,1.556029318,1.926277995109558,5-fold family-grouped out-of-fold
-VA35-SM-56_d00,train,A35,1.712214309,1.9935237169265747,5-fold family-grouped out-of-fold
-VA35-SM-56_d45,train,A35,1.506679277,1.7709925174713135,5-fold family-grouped out-of-fold
-VA4444-CL-28_d00,test,A4444,1.766855685,1.7030673027038574,XGBoost fitted on Phase 2 training families only
-VA4444-CL-28_d45,test,A4444,1.601560615,1.5512462854385376,XGBoost fitted on Phase 2 training families only
-VA4444-CL-56_d00,test,A4444,1.454903394,1.5211730003356934,XGBoost fitted on Phase 2 training families only
-VA4444-CL-56_d45,test,A4444,1.445964462,1.4263418912887573,XGBoost fitted on Phase 2 training families only
-VA4444-HR-28_d00,test,A4444,1.802429606,1.706609845161438,XGBoost fitted on Phase 2 training families only
-VA4444-HR-28_d45,test,A4444,1.479080735,1.5177745819091797,XGBoost fitted on Phase 2 training families only
-VA4444-HR-56_d00,test,A4444,1.54894269,1.5211822986602783,XGBoost fitted on Phase 2 training families only
-VA4444-HR-56_d45,test,A4444,1.294012549,1.4232717752456665,XGBoost fitted on Phase 2 training families only
-VA4444-SM-28_d00,test,A4444,1.765148024,1.7030673027038574,XGBoost fitted on Phase 2 training families only
-VA4444-SM-28_d45,test,A4444,1.536491302,1.5512462854385376,XGBoost fitted on Phase 2 training families only
-VA4444-SM-56_d00,test,A4444,1.450196437,1.5235743522644043,XGBoost fitted on Phase 2 training families only
-VA4444-SM-56_d45,test,A4444,1.430930548,1.4287432432174683,XGBoost fitted on Phase 2 training families only
-VA53-CL-28_d00,train,A53,1.554375444,1.7000975608825684,5-fold family-grouped out-of-fold
-VA53-CL-28_d45,train,A53,1.600740892,1.5356401205062866,5-fold family-grouped out-of-fold
-VA53-CL-56_d00,train,A53,1.257901894,1.5121173858642578,5-fold family-grouped out-of-fold
-VA53-CL-56_d45,train,A53,1.386440789,1.4037542343139648,5-fold family-grouped out-of-fold
-VA53-HR-28_d00,train,A53,1.650265992,1.6863094568252563,5-fold family-grouped out-of-fold
-VA53-HR-28_d45,train,A53,1.448005634,1.5141083002090454,5-fold family-grouped out-of-fold
-VA53-HR-56_d00,train,A53,1.360815322,1.5058362483978271,5-fold family-grouped out-of-fold
-VA53-HR-56_d45,train,A53,1.228516748,1.3974730968475342,5-fold family-grouped out-of-fold
-VA53-SM-28_d00,train,A53,1.601156288,1.705820083618164,5-fold family-grouped out-of-fold
-VA53-SM-28_d45,train,A53,1.526504365,1.5413626432418823,5-fold family-grouped out-of-fold
-VA53-SM-56_d00,train,A53,1.267201879,1.5097981691360474,5-fold family-grouped out-of-fold
-VA53-SM-56_d45,train,A53,1.393367891,1.4014350175857544,5-fold family-grouped out-of-fold
-VA64-CL-28_d00,train,A64,1.348883511,1.7204252481460571,5-fold family-grouped out-of-fold
-VA64-CL-28_d45,train,A64,1.604970228,1.530372142791748,5-fold family-grouped out-of-fold
-VA64-CL-56_d00,train,A64,1.10427985,1.5083917379379272,5-fold family-grouped out-of-fold
-VA64-CL-56_d45,train,A64,1.371689079,1.361443281173706,5-fold family-grouped out-of-fold
-VA64-HR-28_d00,train,A64,1.434013439,1.714621663093567,5-fold family-grouped out-of-fold
-VA64-HR-28_d45,train,A64,1.43058783,1.4994553327560425,5-fold family-grouped out-of-fold
-VA64-HR-56_d00,train,A64,1.144289287,1.50469172000885,5-fold family-grouped out-of-fold
-VA64-HR-56_d45,train,A64,1.150505617,1.357743263244629,5-fold family-grouped out-of-fold
-VA64-SM-28_d00,train,A64,1.390854814,1.7250583171844482,5-fold family-grouped out-of-fold
-VA64-SM-28_d45,train,A64,1.530046424,1.5350052118301392,5-fold family-grouped out-of-fold
-VA64-SM-56_d00,train,A64,1.104733557,1.504611849784851,5-fold family-grouped out-of-fold
-VA64-SM-56_d45,train,A64,1.379134641,1.3576633930206299,5-fold family-grouped out-of-fold
-VS0625-CL-28_d00,train,S0625,4.231820081,2.1340389251708984,5-fold family-grouped out-of-fold
-VS0625-CL-28_d45,train,S0625,3.658276967,1.842584490776062,5-fold family-grouped out-of-fold
-VS0625-CL-56_d00,train,S0625,4.045808564,2.1184442043304443,5-fold family-grouped out-of-fold
-VS0625-CL-56_d45,train,S0625,3.604491857,1.8631621599197388,5-fold family-grouped out-of-fold
-VS0625-HR-28_d00,train,S0625,4.225436559,2.1345202922821045,5-fold family-grouped out-of-fold
-VS0625-HR-28_d45,train,S0625,3.621676656,1.8532227277755737,5-fold family-grouped out-of-fold
-VS0625-HR-56_d00,train,S0625,4.101214866,2.097926616668701,5-fold family-grouped out-of-fold
-VS0625-HR-56_d45,train,S0625,3.573398825,1.837246298789978,5-fold family-grouped out-of-fold
-VS0625-SM-28_d00,train,S0625,4.184831828,2.1626904010772705,5-fold family-grouped out-of-fold
-VS0625-SM-28_d45,train,S0625,3.55531109,1.8106777667999268,5-fold family-grouped out-of-fold
-VS0625-SM-56_d00,train,S0625,4.150664264,2.107426643371582,5-fold family-grouped out-of-fold
-VS0625-SM-56_d45,train,S0625,3.575147289,1.8536334037780762,5-fold family-grouped out-of-fold
-VS1111-CL-28_d00,validation,S1111,2.824229682,4.08976936340332,XGBoost fitted on Phase 2 training families only
-VS1111-CL-28_d45,validation,S1111,2.50830961,3.570331335067749,XGBoost fitted on Phase 2 training families only
-VS1111-CL-56_d00,validation,S1111,2.831152807,4.027294158935547,XGBoost fitted on Phase 2 training families only
-VS1111-CL-56_d45,validation,S1111,2.481126193,3.5565953254699707,XGBoost fitted on Phase 2 training families only
-VS1111-HR-28_d00,validation,S1111,2.87349133,4.0878825187683105,XGBoost fitted on Phase 2 training families only
-VS1111-HR-28_d45,validation,S1111,2.468422433,3.570833444595337,XGBoost fitted on Phase 2 training families only
-VS1111-HR-56_d00,validation,S1111,2.802977993,4.024090766906738,XGBoost fitted on Phase 2 training families only
-VS1111-HR-56_d45,validation,S1111,2.399539003,3.553391695022583,XGBoost fitted on Phase 2 training families only
-VS1111-SM-28_d00,validation,S1111,2.805609349,4.077776908874512,XGBoost fitted on Phase 2 training families only
-VS1111-SM-28_d45,validation,S1111,2.434283412,3.569288969039917,XGBoost fitted on Phase 2 training families only
-VS1111-SM-56_d00,validation,S1111,2.826311865,4.061267852783203,XGBoost fitted on Phase 2 training families only
-VS1111-SM-56_d45,validation,S1111,2.415811956,3.5565953254699707,XGBoost fitted on Phase 2 training families only
-VS16-CL-28_d00,train,S16,2.160912006,2.6036629676818848,5-fold family-grouped out-of-fold
-VS16-CL-28_d45,train,S16,1.960539046,2.041445732116699,5-fold family-grouped out-of-fold
-VS16-CL-56_d00,train,S16,2.111820625,2.534533977508545,5-fold family-grouped out-of-fold
-VS16-CL-56_d45,train,S16,1.958859225,2.012484312057495,5-fold family-grouped out-of-fold
-VS16-HR-28_d00,train,S16,2.138468143,2.595618724822998,5-fold family-grouped out-of-fold
-VS16-HR-28_d45,train,S16,1.924955901,2.018841505050659,5-fold family-grouped out-of-fold
-VS16-HR-56_d00,train,S16,2.136521972,2.5238003730773926,5-fold family-grouped out-of-fold
-VS16-HR-56_d45,train,S16,1.824148296,2.002755641937256,5-fold family-grouped out-of-fold
-VS16-SM-28_d00,train,S16,2.115781881,2.614423990249634,5-fold family-grouped out-of-fold
-VS16-SM-28_d45,train,S16,1.88838539,2.0441174507141113,5-fold family-grouped out-of-fold
-VS16-SM-56_d00,train,S16,2.146705648,2.5332250595092773,5-fold family-grouped out-of-fold
-VS16-SM-56_d45,train,S16,1.881139883,2.0111753940582275,5-fold family-grouped out-of-fold
-VS25-CL-28_d00,validation,S25,1.465239413,1.7913694381713867,XGBoost fitted on Phase 2 training families only
-VS25-CL-28_d45,validation,S25,1.441666596,1.659854531288147,XGBoost fitted on Phase 2 training families only
-VS25-CL-56_d00,validation,S25,1.470619075,1.692121982574463,XGBoost fitted on Phase 2 training families only
-VS25-CL-56_d45,validation,S25,1.472429097,1.609345555305481,XGBoost fitted on Phase 2 training families only
-VS25-HR-28_d00,validation,S25,1.438508486,1.7674881219863892,XGBoost fitted on Phase 2 training families only
-VS25-HR-28_d45,validation,S25,1.405072999,1.638361930847168,XGBoost fitted on Phase 2 training families only
-VS25-HR-56_d00,validation,S25,1.404248756,1.6894187927246094,XGBoost fitted on Phase 2 training families only
-VS25-HR-56_d45,validation,S25,1.361145013,1.6066423654556274,XGBoost fitted on Phase 2 training families only
-VS25-SM-28_d00,validation,S25,1.466469657,1.7751498222351074,XGBoost fitted on Phase 2 training families only
-VS25-SM-28_d45,validation,S25,1.390792538,1.6596599817276,XGBoost fitted on Phase 2 training families only
-VS25-SM-56_d00,validation,S25,1.470351316,1.6939975023269653,XGBoost fitted on Phase 2 training families only
-VS25-SM-56_d45,validation,S25,1.386490103,1.6112210750579834,XGBoost fitted on Phase 2 training families only
-VS35-CL-28_d00,train,S35,1.242037403,1.8233072757720947,5-fold family-grouped out-of-fold
-VS35-CL-28_d45,train,S35,1.436099972,1.6922497749328613,5-fold family-grouped out-of-fold
-VS35-CL-56_d00,train,S35,1.221180156,1.7166846990585327,5-fold family-grouped out-of-fold
-VS35-CL-56_d45,train,S35,1.400186722,1.6203824281692505,5-fold family-grouped out-of-fold
-VS35-HR-28_d00,train,S35,1.238749706,1.80214262008667,5-fold family-grouped out-of-fold
-VS35-HR-28_d45,train,S35,1.310723181,1.6478049755096436,5-fold family-grouped out-of-fold
-VS35-HR-56_d00,train,S35,1.150269776,1.706175684928894,5-fold family-grouped out-of-fold
-VS35-HR-56_d45,train,S35,1.271463015,1.6098734140396118,5-fold family-grouped out-of-fold
-VS35-SM-28_d00,train,S35,1.228058381,1.7944132089614868,5-fold family-grouped out-of-fold
-VS35-SM-28_d45,train,S35,1.344279223,1.683044195175171,5-fold family-grouped out-of-fold
-VS35-SM-56_d00,train,S35,1.18098061,1.7173233032226562,5-fold family-grouped out-of-fold
-VS35-SM-56_d45,train,S35,1.345165655,1.621021032333374,5-fold family-grouped out-of-fold
-VS4444-CL-28_d00,train,S4444,1.202732423,1.4196847677230835,5-fold family-grouped out-of-fold
-VS4444-CL-28_d45,train,S4444,1.522270524,1.2585291862487793,5-fold family-grouped out-of-fold
-VS4444-CL-56_d00,train,S4444,1.120548474,1.3357586860656738,5-fold family-grouped out-of-fold
-VS4444-CL-56_d45,train,S4444,1.393329056,1.215106725692749,5-fold family-grouped out-of-fold
-VS4444-HR-28_d00,train,S4444,1.177097024,1.4143632650375366,5-fold family-grouped out-of-fold
-VS4444-HR-28_d45,train,S4444,1.423184152,1.2555981874465942,5-fold family-grouped out-of-fold
-VS4444-HR-56_d00,train,S4444,1.078236735,1.3294775485992432,5-fold family-grouped out-of-fold
-VS4444-HR-56_d45,train,S4444,1.23662227,1.2088255882263184,5-fold family-grouped out-of-fold
-VS4444-SM-28_d00,train,S4444,1.182566167,1.3933664560317993,5-fold family-grouped out-of-fold
-VS4444-SM-28_d45,train,S4444,1.470359399,1.2578660249710083,5-fold family-grouped out-of-fold
-VS4444-SM-56_d00,train,S4444,1.105984456,1.3334394693374634,5-fold family-grouped out-of-fold
-VS4444-SM-56_d45,train,S4444,1.321348819,1.2127875089645386,5-fold family-grouped out-of-fold
-VS53-CL-28_d00,train,S53,1.152497961,1.2557348012924194,5-fold family-grouped out-of-fold
-VS53-CL-28_d45,train,S53,1.550069616,1.2001138925552368,5-fold family-grouped out-of-fold
-VS53-CL-56_d00,train,S53,1.047777674,1.121358036994934,5-fold family-grouped out-of-fold
-VS53-CL-56_d45,train,S53,1.337359596,1.0997567176818848,5-fold family-grouped out-of-fold
-VS53-HR-28_d00,train,S53,1.150409892,1.233616828918457,5-fold family-grouped out-of-fold
-VS53-HR-28_d45,train,S53,1.464559652,1.1762645244598389,5-fold family-grouped out-of-fold
-VS53-HR-56_d00,train,S53,1.009130644,1.1193370819091797,5-fold family-grouped out-of-fold
-VS53-HR-56_d45,train,S53,1.175788773,1.0977357625961304,5-fold family-grouped out-of-fold
-VS53-SM-28_d00,train,S53,1.113063985,1.206817626953125,5-fold family-grouped out-of-fold
-VS53-SM-28_d45,train,S53,1.48846922,1.175264835357666,5-fold family-grouped out-of-fold
-VS53-SM-56_d00,train,S53,1.098249503,1.1191587448120117,5-fold family-grouped out-of-fold
-VS53-SM-56_d45,train,S53,1.260170104,1.0975574254989624,5-fold family-grouped out-of-fold
-VS64-CL-28_d00,validation,S64,1.186830762,1.1753076314926147,XGBoost fitted on Phase 2 training families only
-VS64-CL-28_d45,validation,S64,1.521241654,1.193630337715149,XGBoost fitted on Phase 2 training families only
-VS64-CL-56_d00,validation,S64,1.034432686,1.025604486465454,XGBoost fitted on Phase 2 training families only
-VS64-CL-56_d45,validation,S64,1.25369852,1.092665672302246,XGBoost fitted on Phase 2 training families only
-VS64-HR-28_d00,validation,S64,1.13806481,1.1546692848205566,XGBoost fitted on Phase 2 training families only
-VS64-HR-28_d45,validation,S64,1.438890449,1.1753807067871094,XGBoost fitted on Phase 2 training families only
-VS64-HR-56_d00,validation,S64,0.965552161,1.028282642364502,XGBoost fitted on Phase 2 training families only
-VS64-HR-56_d45,validation,S64,1.096183534,1.095343828201294,XGBoost fitted on Phase 2 training families only
-VS64-SM-28_d00,validation,S64,1.120361947,1.1492811441421509,XGBoost fitted on Phase 2 training families only
-VS64-SM-28_d45,validation,S64,1.499372722,1.1836289167404175,XGBoost fitted on Phase 2 training families only
-VS64-SM-56_d00,validation,S64,1.028904031,1.0274800062179565,XGBoost fitted on Phase 2 training families only
-VS64-SM-56_d45,validation,S64,1.217196411,1.0945411920547485,XGBoost fitted on Phase 2 training families only
+simulation_id,split,family_id,actual_canopy_mean_m_s,predicted_canopy_mean_m_s,prediction_method,channel_z
+UA0625_d00,test,A0625,5.224270316,3.916962146759033,mean of 5 fold models (training families only),2.4716549614057755
+UA0625_d45,test,A0625,3.368764502,3.213024139404297,mean of 5 fold models (training families only),1.6214006519525923
+UA1111_d00,test,A1111,3.868835671,3.916962146759033,mean of 5 fold models (training families only),2.4716549614057755
+UA1111_d45,test,A1111,2.341092068,3.213024139404297,mean of 5 fold models (training families only),1.6214006519525923
+UA16_d00,train,A16,3.226372526,2.4234166145324707,5-fold family-grouped out-of-fold,0.6676700765546245
+UA16_d45,train,A16,1.903163237,1.8968496322631836,5-fold family-grouped out-of-fold,0.03165406205833496
+UA25_d00,train,A25,2.749950081,2.885138750076294,5-fold family-grouped out-of-fold,1.225362986177884
+UA25_d45,train,A25,1.602703512,2.175497055053711,5-fold family-grouped out-of-fold,0.3682194549911206
+UA35_d00,train,A35,2.279838977,2.335003137588501,5-fold family-grouped out-of-fold,0.5608795083512693
+UA35_d45,train,A35,1.529994243,1.9384526014328003,5-fold family-grouped out-of-fold,0.0819043730984219
+UA4444_d00,test,A4444,2.293793351,1.8492794036865234,mean of 5 fold models (training families only),-0.025803826884143823
+UA4444_d45,test,A4444,1.486857398,1.5891623497009277,mean of 5 fold models (training families only),-0.33998724048418083
+UA53_d00,train,A53,2.705875708,1.7869099378585815,5-fold family-grouped out-of-fold,-0.10113703313873551
+UA53_d45,train,A53,1.432142529,1.5528429746627808,5-fold family-grouped out-of-fold,-0.38385574143197676
+UA64_d00,train,A64,2.747657596,1.8281385898590088,5-fold family-grouped out-of-fold,-0.051338842573577355
+UA64_d45,train,A64,1.314752598,1.5654305219650269,5-fold family-grouped out-of-fold,-0.3686518225820784
+US0625_d00,train,S0625,4.287037468,2.2012252807617188,5-fold family-grouped out-of-fold,0.39929539428444255
+US0625_d45,train,S0625,3.648802756,1.7313677072525024,5-fold family-grouped out-of-fold,-0.1682239362978983
+US1111_d00,validation,S1111,2.8892686,3.7832324504852295,mean of 5 fold models (training families only),2.310129018253557
+US1111_d45,validation,S1111,2.466682406,3.1742334365844727,mean of 5 fold models (training families only),1.5745471479583797
+US16_d00,train,S16,2.112453655,2.696033239364624,5-fold family-grouped out-of-fold,0.9969511462942103
+US16_d45,train,S16,1.940726106,2.040355682373047,5-fold family-grouped out-of-fold,0.2049884129012888
+US25_d00,validation,S25,1.391963677,2.1309990882873535,mean of 5 fold models (training families only),0.3144724096409554
+US25_d45,validation,S25,1.409623384,1.7296355962753296,mean of 5 fold models (training families only),-0.17031607340003696
+US35_d00,train,S35,1.229375258,2.0064544677734375,5-fold family-grouped out-of-fold,0.16404069661398027
+US35_d45,train,S35,1.151477918,1.7361313104629517,5-fold family-grouped out-of-fold,-0.16247019929848608
+US4444_d00,train,S4444,1.052834501,1.5462452173233032,5-fold family-grouped out-of-fold,-0.39182486875854006
+US4444_d45,train,S4444,1.154797158,1.2998894453048706,5-fold family-grouped out-of-fold,-0.6893866634462109
+US53_d00,train,S53,0.947374337,1.4223250150680542,5-fold family-grouped out-of-fold,-0.541502375719376
+US53_d45,train,S53,1.11616045,1.2849640846252441,5-fold family-grouped out-of-fold,-0.7074143194406406
+US64_d00,validation,S64,0.898580995,1.3718985319137573,mean of 5 fold models (training families only),-0.6024102030629037
+US64_d45,validation,S64,1.175921093,1.271016001701355,mean of 5 fold models (training families only),-0.7242615666282339
+VA0625-CL-28_d00,test,A0625,5.15362497,3.8282809257507324,mean of 5 fold models (training families only),2.364540997474175
+VA0625-CL-28_d45,test,A0625,3.386545899,3.233551025390625,mean of 5 fold models (training families only),1.6461941324681777
+VA0625-CL-56_d00,test,A0625,4.932246149,3.7422497272491455,mean of 5 fold models (training families only),2.2606278737201757
+VA0625-CL-56_d45,test,A0625,3.401152709,3.191347599029541,mean of 5 fold models (training families only),1.5952185568318435
+VA0625-HR-28_d00,test,A0625,5.143625027,3.8422272205352783,mean of 5 fold models (training families only),2.381386084850582
+VA0625-HR-28_d45,test,A0625,3.379752058,3.2186686992645264,mean of 5 fold models (training families only),1.6282184559296236
+VA0625-HR-56_d00,test,A0625,4.965073382,3.7506377696990967,mean of 5 fold models (training families only),2.2707594040061276
+VA0625-HR-56_d45,test,A0625,3.371056259,3.198559284210205,mean of 5 fold models (training families only),1.603929219332255
+VA0625-SM-28_d00,test,A0625,5.151403969,3.826540470123291,mean of 5 fold models (training families only),2.3624387812531684
+VA0625-SM-28_d45,test,A0625,3.40167227,3.231482982635498,mean of 5 fold models (training families only),1.6436962388379024
+VA0625-SM-56_d00,test,A0625,4.925131903,3.73838472366333,mean of 5 fold models (training families only),2.255959513835417
+VA0625-SM-56_d45,test,A0625,3.41713155,3.1874828338623047,mean of 5 fold models (training families only),1.59055048492191
+VA1111-CL-28_d00,test,A1111,3.741932779,3.8282809257507324,mean of 5 fold models (training families only),2.364540997474175
+VA1111-CL-28_d45,test,A1111,2.358178075,3.233551025390625,mean of 5 fold models (training families only),1.6461941324681777
+VA1111-CL-56_d00,test,A1111,3.598915617,3.7422497272491455,mean of 5 fold models (training families only),2.2606278737201757
+VA1111-CL-56_d45,test,A1111,2.360139774,3.191347599029541,mean of 5 fold models (training families only),1.5952185568318435
+VA1111-HR-28_d00,test,A1111,3.738946057,3.8422272205352783,mean of 5 fold models (training families only),2.381386084850582
+VA1111-HR-28_d45,test,A1111,2.338881411,3.2186686992645264,mean of 5 fold models (training families only),1.6282184559296236
+VA1111-HR-56_d00,test,A1111,3.54135235,3.7506377696990967,mean of 5 fold models (training families only),2.2707594040061276
+VA1111-HR-56_d45,test,A1111,2.314164418,3.198559284210205,mean of 5 fold models (training families only),1.603929219332255
+VA1111-SM-28_d00,test,A1111,3.670786508,3.826540470123291,mean of 5 fold models (training families only),2.3624387812531684
+VA1111-SM-28_d45,test,A1111,2.347229047,3.231482982635498,mean of 5 fold models (training families only),1.6436962388379024
+VA1111-SM-56_d00,test,A1111,3.523383555,3.73838472366333,mean of 5 fold models (training families only),2.255959513835417
+VA1111-SM-56_d45,test,A1111,2.3543961,3.1874828338623047,mean of 5 fold models (training families only),1.59055048492191
+VA16-CL-28_d00,train,A16,3.014350069,2.2509207725524902,5-fold family-grouped out-of-fold,0.4593202908151476
+VA16-CL-28_d45,train,A16,1.937770218,1.9042463302612305,5-fold family-grouped out-of-fold,0.04058819302278767
+VA16-CL-56_d00,train,A16,2.796185919,2.1584103107452393,5-fold family-grouped out-of-fold,0.34758116322250815
+VA16-CL-56_d45,train,A16,1.92229141,1.847908854484558,5-fold family-grouped out-of-fold,-0.027459250164480222
+VA16-HR-28_d00,train,A16,2.996322171,2.2871737480163574,5-fold family-grouped out-of-fold,0.503108590774238
+VA16-HR-28_d45,train,A16,1.91422941,1.8758057355880737,5-fold family-grouped out-of-fold,0.0062361081351807604
+VA16-HR-56_d00,train,A16,2.802500162,2.1488187313079834,5-fold family-grouped out-of-fold,0.33599593602098893
+VA16-HR-56_d45,train,A16,1.86447479,1.8314303159713745,5-fold family-grouped out-of-fold,-0.04736291815503957
+VA16-SM-28_d00,train,A16,2.987425977,2.2322163581848145,5-fold family-grouped out-of-fold,0.4367280898602983
+VA16-SM-28_d45,train,A16,1.910749556,1.8839045763015747,5-fold family-grouped out-of-fold,0.01601832495865594
+VA16-SM-56_d00,train,A16,2.749085335,2.138376474380493,5-fold family-grouped out-of-fold,0.3233832146445997
+VA16-SM-56_d45,train,A16,1.921929745,1.8278751373291016,5-fold family-grouped out-of-fold,-0.051657054754976284
+VA25-CL-28_d00,train,A25,2.360941631,2.7807564735412598,5-fold family-grouped out-of-fold,1.0992844401593822
+VA25-CL-28_d45,train,A25,1.653178844,2.1645748615264893,5-fold family-grouped out-of-fold,0.35502704029241816
+VA25-CL-56_d00,train,A25,2.114758234,2.692641496658325,5-fold family-grouped out-of-fold,0.9928544164366708
+VA25-CL-56_d45,train,A25,1.644992019,2.1166276931762695,5-fold family-grouped out-of-fold,0.29711386315193783
+VA25-HR-28_d00,train,A25,2.335433462,2.8125715255737305,5-fold family-grouped out-of-fold,1.1377123767297308
+VA25-HR-28_d45,train,A25,1.619688836,2.1737406253814697,5-fold family-grouped out-of-fold,0.3660979444568528
+VA25-HR-56_d00,train,A25,2.197141997,2.6802992820739746,5-fold family-grouped out-of-fold,0.977946823681487
+VA25-HR-56_d45,train,A25,1.542841819,2.105289936065674,5-fold family-grouped out-of-fold,0.28341950833361707
+VA25-SM-28_d00,train,A25,2.285333379,2.7814478874206543,5-fold family-grouped out-of-fold,1.100119567151289
+VA25-SM-28_d45,train,A25,1.616528371,2.165266275405884,5-fold family-grouped out-of-fold,0.35586216728432485
+VA25-SM-56_d00,train,A25,2.035419513,2.6907246112823486,5-fold family-grouped out-of-fold,0.9905390988453158
+VA25-SM-56_d45,train,A25,1.611910599,2.114710807800293,5-fold family-grouped out-of-fold,0.29479854556058277
+VA35-CL-28_d00,train,A35,1.964470279,2.1911680698394775,5-fold family-grouped out-of-fold,0.3871477522500979
+VA35-CL-28_d45,train,A35,1.603381947,1.9250380992889404,5-fold family-grouped out-of-fold,0.06570161356872073
+VA35-CL-56_d00,train,A35,1.72205725,1.9990746974945068,5-fold family-grouped out-of-fold,0.15512701186208805
+VA35-CL-56_d45,train,A35,1.528192414,1.7765434980392456,5-fold family-grouped out-of-fold,-0.1136581785208398
+VA35-HR-28_d00,train,A35,2.076695947,2.1725194454193115,5-fold family-grouped out-of-fold,0.3646229374042507
+VA35-HR-28_d45,train,A35,1.529242809,1.882448673248291,5-fold family-grouped out-of-fold,0.014259806691042787
+VA35-HR-56_d00,train,A35,1.837766359,1.9862451553344727,5-fold family-grouped out-of-fold,0.1396307985650224
+VA35-HR-56_d45,train,A35,1.404318352,1.7637139558792114,5-fold family-grouped out-of-fold,-0.12915439181790545
+VA35-SM-28_d00,train,A35,1.983347297,2.1924078464508057,5-fold family-grouped out-of-fold,0.388645221339034
+VA35-SM-28_d45,train,A35,1.556029318,1.926277995109558,5-fold family-grouped out-of-fold,0.06719922664506923
+VA35-SM-56_d00,train,A35,1.712214309,1.9935237169265747,5-fold family-grouped out-of-fold,0.14842223800378898
+VA35-SM-56_d45,train,A35,1.506679277,1.7709925174713135,5-fold family-grouped out-of-fold,-0.12036295237913887
+VA4444-CL-28_d00,test,A4444,1.766855685,1.7271487712860107,mean of 5 fold models (training families only),-0.17331979481006543
+VA4444-CL-28_d45,test,A4444,1.601560615,1.5762395858764648,mean of 5 fold models (training families only),-0.35559605193774146
+VA4444-CL-56_d00,test,A4444,1.454903394,1.5335773229599,mean of 5 fold models (training families only),-0.4071258351243944
+VA4444-CL-56_d45,test,A4444,1.445964462,1.426496148109436,mean of 5 fold models (training families only),-0.5364642561595804
+VA4444-HR-28_d00,test,A4444,1.802429606,1.721299409866333,mean of 5 fold models (training families only),-0.18038496916159596
+VA4444-HR-28_d45,test,A4444,1.479080735,1.5415618419647217,mean of 5 fold models (training families only),-0.3974817022294086
+VA4444-HR-56_d00,test,A4444,1.54894269,1.5212584733963013,mean of 5 fold models (training families only),-0.42200520634674826
+VA4444-HR-56_d45,test,A4444,1.294012549,1.4130007028579712,mean of 5 fold models (training families only),-0.5527647831422996
+VA4444-SM-28_d00,test,A4444,1.765148024,1.7271320819854736,mean of 5 fold models (training families only),-0.17333995304780112
+VA4444-SM-28_d45,test,A4444,1.536491302,1.5758954286575317,mean of 5 fold models (training families only),-0.3560117435973336
+VA4444-SM-56_d00,test,A4444,1.450196437,1.5276447534561157,mean of 5 fold models (training families only),-0.4142915126897785
+VA4444-SM-56_d45,test,A4444,1.430930548,1.4205635786056519,mean of 5 fold models (training families only),-0.5436299337249645
+VA53-CL-28_d00,train,A53,1.554375444,1.7000975608825684,5-fold family-grouped out-of-fold,-0.20599370640617712
+VA53-CL-28_d45,train,A53,1.600740892,1.5356401205062866,5-fold family-grouped out-of-fold,-0.40463427694026455
+VA53-CL-56_d00,train,A53,1.257901894,1.5121173858642578,5-fold family-grouped out-of-fold,-0.4330463051168166
+VA53-CL-56_d45,train,A53,1.386440789,1.4037542343139648,5-fold family-grouped out-of-fold,-0.5639331667849274
+VA53-HR-28_d00,train,A53,1.650265992,1.6863094568252563,5-fold family-grouped out-of-fold,-0.2226477224863327
+VA53-HR-28_d45,train,A53,1.448005634,1.5141083002090454,5-fold family-grouped out-of-fold,-0.43064157134236253
+VA53-HR-56_d00,train,A53,1.360815322,1.5058362483978271,5-fold family-grouped out-of-fold,-0.4406330018760516
+VA53-HR-56_d45,train,A53,1.228516748,1.3974730968475342,5-fold family-grouped out-of-fold,-0.5715198635441624
+VA53-SM-28_d00,train,A53,1.601156288,1.705820083618164,5-fold family-grouped out-of-fold,-0.19908173466143775
+VA53-SM-28_d45,train,A53,1.526504365,1.5413626432418823,5-fold family-grouped out-of-fold,-0.39772230519552515
+VA53-SM-56_d00,train,A53,1.267201879,1.5097981691360474,5-fold family-grouped out-of-fold,-0.4358475802250139
+VA53-SM-56_d45,train,A53,1.393367891,1.4014350175857544,5-fold family-grouped out-of-fold,-0.5667344418931247
+VA64-CL-28_d00,train,A64,1.348883511,1.7204252481460571,5-fold family-grouped out-of-fold,-0.1814408288567083
+VA64-CL-28_d45,train,A64,1.604970228,1.530372142791748,5-fold family-grouped out-of-fold,-0.41099722468153144
+VA64-CL-56_d00,train,A64,1.10427985,1.5083917379379272,5-fold family-grouped out-of-fold,-0.437546343716482
+VA64-CL-56_d45,train,A64,1.371689079,1.361443281173706,5-fold family-grouped out-of-fold,-0.6150386190672443
+VA64-HR-28_d00,train,A64,1.434013439,1.714621663093567,5-fold family-grouped out-of-fold,-0.1884507120418781
+VA64-HR-28_d45,train,A64,1.43058783,1.4994553327560425,5-fold family-grouped out-of-fold,-0.44834021609946345
+VA64-HR-56_d00,train,A64,1.144289287,1.50469172000885,5-fold family-grouped out-of-fold,-0.4420154250224819
+VA64-HR-56_d45,train,A64,1.150505617,1.357743263244629,5-fold family-grouped out-of-fold,-0.6195077003732442
+VA64-SM-28_d00,train,A64,1.390854814,1.7250583171844482,5-fold family-grouped out-of-fold,-0.17584475807387157
+VA64-SM-28_d45,train,A64,1.530046424,1.5350052118301392,5-fold family-grouped out-of-fold,-0.4054011538986947
+VA64-SM-56_d00,train,A64,1.104733557,1.504611849784851,5-fold family-grouped out-of-fold,-0.4421118965887884
+VA64-SM-56_d45,train,A64,1.379134641,1.3576633930206299,5-fold family-grouped out-of-fold,-0.6196041719395508
+VS0625-CL-28_d00,train,S0625,4.231820081,2.1340389251708984,5-fold family-grouped out-of-fold,0.3181440886570968
+VS0625-CL-28_d45,train,S0625,3.658276967,1.842584490776062,5-fold family-grouped out-of-fold,-0.03389030395181125
+VS0625-CL-56_d00,train,S0625,4.045808564,2.1184442043304443,5-fold family-grouped out-of-fold,0.2993079433420541
+VS0625-CL-56_d45,train,S0625,3.604491857,1.8631621599197388,5-fold family-grouped out-of-fold,-0.009035484798544468
+VS0625-HR-28_d00,train,S0625,4.225436559,2.1345202922821045,5-fold family-grouped out-of-fold,0.3187255098283588
+VS0625-HR-28_d45,train,S0625,3.621676656,1.8532227277755737,5-fold family-grouped out-of-fold,-0.02104086726944019
+VS0625-HR-56_d00,train,S0625,4.101214866,2.097926616668701,5-fold family-grouped out-of-fold,0.2745256938446357
+VS0625-HR-56_d45,train,S0625,3.573398825,1.837246298789978,5-fold family-grouped out-of-fold,-0.04033806027898041
+VS0625-SM-28_d00,train,S0625,4.184831828,2.1626904010772705,5-fold family-grouped out-of-fold,0.3527508872772353
+VS0625-SM-28_d45,train,S0625,3.55531109,1.8106777667999268,5-fold family-grouped out-of-fold,-0.07242896684229379
+VS0625-SM-56_d00,train,S0625,4.150664264,2.107426643371582,5-fold family-grouped out-of-fold,0.2860003387134335
+VS0625-SM-56_d45,train,S0625,3.575147289,1.8536334037780762,5-fold family-grouped out-of-fold,-0.020544830633730103
+VS1111-CL-28_d00,validation,S1111,2.824229682,3.719639539718628,mean of 5 fold models (training families only),2.233318069185528
+VS1111-CL-28_d45,validation,S1111,2.50830961,3.22625470161438,mean of 5 fold models (training families only),1.6373812389049638
+VS1111-CL-56_d00,validation,S1111,2.831152807,3.6660549640655518,mean of 5 fold models (training families only),2.16859572731276
+VS1111-CL-56_d45,validation,S1111,2.481126193,3.20979380607605,mean of 5 fold models (training families only),1.6174988810514395
+VS1111-HR-28_d00,validation,S1111,2.87349133,3.725632905960083,mean of 5 fold models (training families only),2.2405571803312347
+VS1111-HR-28_d45,validation,S1111,2.468422433,3.2268433570861816,mean of 5 fold models (training families only),1.6380922487473837
+VS1111-HR-56_d00,validation,S1111,2.802977993,3.6590523719787598,mean of 5 fold models (training families only),2.1601376187336943
+VS1111-HR-56_d45,validation,S1111,2.399539003,3.2019124031066895,mean of 5 fold models (training families only),1.6079792972681777
+VS1111-SM-28_d00,validation,S1111,2.805609349,3.714707612991333,mean of 5 fold models (training families only),2.22736102195981
+VS1111-SM-28_d45,validation,S1111,2.434283412,3.2144389152526855,mean of 5 fold models (training families only),1.6231094945629283
+VS1111-SM-56_d00,validation,S1111,2.826311865,3.683807373046875,mean of 5 fold models (training families only),2.1900380447922014
+VS1111-SM-56_d45,validation,S1111,2.415811956,3.208514451980591,mean of 5 fold models (training families only),1.6159536081415873
+VS16-CL-28_d00,train,S16,2.160912006,2.6036629676818848,5-fold family-grouped out-of-fold,0.8853813478985506
+VS16-CL-28_d45,train,S16,1.960539046,2.041445732116699,5-fold family-grouped out-of-fold,0.2063050338002534
+VS16-CL-56_d00,train,S16,2.111820625,2.534533977508545,5-fold family-grouped out-of-fold,0.801883623398772
+VS16-CL-56_d45,train,S16,1.958859225,2.012484312057495,5-fold family-grouped out-of-fold,0.17132386790788093
+VS16-HR-28_d00,train,S16,2.138468143,2.595618724822998,5-fold family-grouped out-of-fold,0.8756650773099536
+VS16-HR-28_d45,train,S16,1.924955901,2.018841505050659,5-fold family-grouped out-of-fold,0.17900242863622565
+VS16-HR-56_d00,train,S16,2.136521972,2.5238003730773926,5-fold family-grouped out-of-fold,0.7889189967864827
+VS16-HR-56_d45,train,S16,1.824148296,2.002755641937256,5-fold family-grouped out-of-fold,0.15957305518210435
+VS16-SM-28_d00,train,S16,2.115781881,2.614423990249634,5-fold family-grouped out-of-fold,0.8983790916156913
+VS16-SM-28_d45,train,S16,1.88838539,2.0441174507141113,5-fold family-grouped out-of-fold,0.20953207968691073
+VS16-SM-56_d00,train,S16,2.146705648,2.5332250595092773,5-fold family-grouped out-of-fold,0.8003026416106451
+VS16-SM-56_d45,train,S16,1.881139883,2.0111753940582275,5-fold family-grouped out-of-fold,0.16974288611975413
+VS25-CL-28_d00,validation,S25,1.465239413,2.007936716079712,mean of 5 fold models (training families only),0.16583103609973332
+VS25-CL-28_d45,validation,S25,1.441666596,1.7221872806549072,mean of 5 fold models (training families only),-0.17931255091405787
+VS25-CL-56_d00,validation,S25,1.470619075,1.9345910549163818,mean of 5 fold models (training families only),0.07724018884862309
+VS25-CL-56_d45,validation,S25,1.472429097,1.6859652996063232,mean of 5 fold models (training families only),-0.22306341414592487
+VS25-HR-28_d00,validation,S25,1.438508486,1.996506929397583,mean of 5 fold models (training families only),0.1520255229990415
+VS25-HR-28_d45,validation,S25,1.405072999,1.705352544784546,mean of 5 fold models (training families only),-0.19964645329286154
+VS25-HR-56_d00,validation,S25,1.404248756,1.9229198694229126,mean of 5 fold models (training families only),0.06314310123782593
+VS25-HR-56_d45,validation,S25,1.361145013,1.673415184020996,mean of 5 fold models (training families only),-0.23822212094833028
+VS25-SM-28_d00,validation,S25,1.466469657,1.9819166660308838,mean of 5 fold models (training families only),0.13440261562086178
+VS25-SM-28_d45,validation,S25,1.390792538,1.7225885391235352,mean of 5 fold models (training families only),-0.1788278892839272
+VS25-SM-56_d00,validation,S25,1.470351316,1.9313499927520752,mean of 5 fold models (training families only),0.07332545908035433
+VS25-SM-56_d45,validation,S25,1.386490103,1.683021903038025,mean of 5 fold models (training families only),-0.22661860734543657
+VS35-CL-28_d00,train,S35,1.242037403,1.8233072757720947,5-fold family-grouped out-of-fold,-0.05717436442323148
+VS35-CL-28_d45,train,S35,1.436099972,1.6922497749328613,5-fold family-grouped out-of-fold,-0.21547268573914274
+VS35-CL-56_d00,train,S35,1.221180156,1.7166846990585327,5-fold family-grouped out-of-fold,-0.18595886588292346
+VS35-CL-56_d45,train,S35,1.400186722,1.6203824281692505,5-fold family-grouped out-of-fold,-0.30227794508910905
+VS35-HR-28_d00,train,S35,1.238749706,1.80214262008667,5-fold family-grouped out-of-fold,-0.08273817759514455
+VS35-HR-28_d45,train,S35,1.310723181,1.6478049755096436,5-fold family-grouped out-of-fold,-0.2691555127033785
+VS35-HR-56_d00,train,S35,1.150269776,1.706175684928894,5-fold family-grouped out-of-fold,-0.19865222021025541
+VS35-HR-56_d45,train,S35,1.271463015,1.6098734140396118,5-fold family-grouped out-of-fold,-0.314971299416441
+VS35-SM-28_d00,train,S35,1.228058381,1.7944132089614868,5-fold family-grouped out-of-fold,-0.09207417742759925
+VS35-SM-28_d45,train,S35,1.344279223,1.683044195175171,5-fold family-grouped out-of-fold,-0.2265916816993182
+VS35-SM-56_d00,train,S35,1.18098061,1.7173233032226562,5-fold family-grouped out-of-fold,-0.18518752531470897
+VS35-SM-56_d45,train,S35,1.345165655,1.621021032333374,5-fold family-grouped out-of-fold,-0.30150660452089456
+VS4444-CL-28_d00,train,S4444,1.202732423,1.4196847677230835,5-fold family-grouped out-of-fold,-0.5446914089291603
+VS4444-CL-28_d45,train,S4444,1.522270524,1.2585291862487793,5-fold family-grouped out-of-fold,-0.7393438161146562
+VS4444-CL-56_d00,train,S4444,1.120548474,1.3357586860656738,5-fold family-grouped out-of-fold,-0.6460618589676287
+VS4444-CL-56_d45,train,S4444,1.393329056,1.215106725692749,5-fold family-grouped out-of-fold,-0.7917918070301693
+VS4444-HR-28_d00,train,S4444,1.177097024,1.4143632650375366,5-fold family-grouped out-of-fold,-0.5511190070185938
+VS4444-HR-28_d45,train,S4444,1.423184152,1.2555981874465942,5-fold family-grouped out-of-fold,-0.7428840346232785
+VS4444-HR-56_d00,train,S4444,1.078236735,1.3294775485992432,5-fold family-grouped out-of-fold,-0.6536485557268638
+VS4444-HR-56_d45,train,S4444,1.23662227,1.2088255882263184,5-fold family-grouped out-of-fold,-0.7993785037894042
+VS4444-SM-28_d00,train,S4444,1.182566167,1.3933664560317993,5-fold family-grouped out-of-fold,-0.5764800859138509
+VS4444-SM-28_d45,train,S4444,1.470359399,1.2578660249710083,5-fold family-grouped out-of-fold,-0.7401448180898246
+VS4444-SM-56_d00,train,S4444,1.105984456,1.3334394693374634,5-fold family-grouped out-of-fold,-0.6488631340758261
+VS4444-SM-56_d45,train,S4444,1.321348819,1.2127875089645386,5-fold family-grouped out-of-fold,-0.7945930821383665
+VS53-CL-28_d00,train,S53,1.152497961,1.2557348012924194,5-fold family-grouped out-of-fold,-0.7427190250486707
+VS53-CL-28_d45,train,S53,1.550069616,1.2001138925552368,5-fold family-grouped out-of-fold,-0.809900959900016
+VS53-CL-56_d00,train,S53,1.047777674,1.121358036994934,5-fold family-grouped out-of-fold,-0.9050265318753836
+VS53-CL-56_d45,train,S53,1.337359596,1.0997567176818848,5-fold family-grouped out-of-fold,-0.9311177709389095
+VS53-HR-28_d00,train,S53,1.150409892,1.233616828918457,5-fold family-grouped out-of-fold,-0.7694343055575282
+VS53-HR-28_d45,train,S53,1.464559652,1.1762645244598389,5-fold family-grouped out-of-fold,-0.8387075135865377
+VS53-HR-56_d00,train,S53,1.009130644,1.1193370819091797,5-fold family-grouped out-of-fold,-0.9074675504777618
+VS53-HR-56_d45,train,S53,1.175788773,1.0977357625961304,5-fold family-grouped out-of-fold,-0.9335587895412878
+VS53-SM-28_d00,train,S53,1.113063985,1.206817626953125,5-fold family-grouped out-of-fold,-0.8018038277638312
+VS53-SM-28_d45,train,S53,1.48846922,1.175264835357666,5-fold family-grouped out-of-fold,-0.8399149920269049
+VS53-SM-56_d00,train,S53,1.098249503,1.1191587448120117,5-fold family-grouped out-of-fold,-0.9076829556467089
+VS53-SM-56_d45,train,S53,1.260170104,1.0975574254989624,5-fold family-grouped out-of-fold,-0.9337741947102347
+VS64-CL-28_d00,validation,S64,1.186830762,1.1961749792099,mean of 5 fold models (training families only),-0.8146585919804609
+VS64-CL-28_d45,validation,S64,1.521241654,1.2109066247940063,mean of 5 fold models (training families only),-0.7968649155311776
+VS64-CL-56_d00,validation,S64,1.034432686,1.0454100370407104,mean of 5 fold models (training families only),-0.9967606243391357
+VS64-CL-56_d45,validation,S64,1.25369852,1.097265601158142,mean of 5 fold models (training families only),-0.9341266758957842
+VS64-HR-28_d00,validation,S64,1.13806481,1.1686338186264038,mean of 5 fold models (training families only),-0.8479242918415272
+VS64-HR-28_d45,validation,S64,1.438890449,1.177960753440857,mean of 5 fold models (training families only),-0.8366587166955308
+VS64-HR-56_d00,validation,S64,0.965552161,1.030958652496338,mean of 5 fold models (training families only),-1.0142157863818722
+VS64-HR-56_d45,validation,S64,1.096183534,1.0819354057312012,mean of 5 fold models (training families only),-0.9526433131427166
+VS64-SM-28_d00,validation,S64,1.120361947,1.1436446905136108,mean of 5 fold models (training families only),-0.8781075091779833
+VS64-SM-28_d45,validation,S64,1.499372722,1.1847978830337524,mean of 5 fold models (training families only),-0.828400462644873
+VS64-SM-56_d00,validation,S64,1.028904031,1.0434000492095947,mean of 5 fold models (training families only),-0.9991883960995734
+VS64-SM-56_d45,validation,S64,1.217196411,1.0955532789230347,mean of 5 fold models (training families only),-0.9361949110874649

@@ -1,3 +1,6 @@
-model,aggregation,field_component_MAE,field_component_RMSE,field_component_NRMSE,pedestrian_speed_MAE_native_units,pedestrian_speed_RMSE_native_units,pedestrian_speed_NRMSE,valid_air_cells
-Phase 2 U-Net,all valid cells pooled,0.24383920431137085,0.34160667657852173,0.10714836967296093,0.2431143969297409,0.3204495906829834,0.180598818261877,5157120
-Hybrid XGBoost-conditioned U-Net,all valid cells pooled,0.27069634199142456,0.36407342553138733,0.1141952914318157,0.270022988319397,0.32964983582496643,0.18578388776632038,5157120
+,field_MAE,field_MAE,field_RMSE,field_RMSE,field_NRMSE,field_NRMSE,speed_MAE,speed_MAE,MAE change vs base (%)
+,mean,std,mean,std,mean,std,mean,std,
+model,,,,,,,,,
+base,0.2438,,0.3416,,0.1071,,0.2431,,0.0
+hybrid,0.2527,,0.3517,,0.1103,,0.2502,,-3.62
+shuffled_control,0.2386,,0.3426,,0.1075,,0.241,,2.15

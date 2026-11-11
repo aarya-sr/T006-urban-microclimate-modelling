@@ -1,6 +1,6 @@
 {
   "test_cases": 42,
-  "phase1_canopy_MAE_m_s": 0.48823639895480203,
-  "phase1_canopy_RMSE_m_s": 0.6524758006581526,
-  "phase1_canopy_R2": 0.7275951958571464
+  "phase1_canopy_MAE_m_s": 0.4354458487091661,
+  "phase1_canopy_RMSE_m_s": 0.6380604674916835,
+  "phase1_canopy_R2": 0.7394988648783676
 }

@@ -1,5 +1,5 @@
 {
-  "mean": 1.8118228614330292,
-  "std": 0.4333838079975393,
-  "fit_scope": "training cases only; training values are group-wise out-of-fold predictions"
+  "mean": 1.8706427702428572,
+  "std": 0.8279146598003768,
+  "fit_scope": "mean/std of the true canopy-mean target on training cases only"
 }
