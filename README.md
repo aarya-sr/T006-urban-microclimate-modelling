@@ -413,6 +413,7 @@ jupyter lab
 | [`Report/Report_DL.pdf`](Report/Report_DL.pdf) | Full IEEE-style report covering Phase 1 (ML), Phase 2 (DL) and the hybrid experiment |
 | [`Report/Report_AML.pdf`](Report/Report_AML.pdf) | Phase 1 (Machine Learning evaluation) project report |
 | [`Presentation/Presentation_AML.pdf`](Presentation/Presentation_AML.pdf) | Phase 1 presentation (14 slides) |
+| [`Presentation/Presentation_DL.pdf`](Presentation/Presentation_DL.pdf) | Phase 2 presentation (10 slides) |
 
 ---
 
